@@ -16,23 +16,16 @@ public class Ejercicio01 {
      */
     public static void main(String[] args) {
         // Solución a la problemática
-
-        int variable1 = 1;
-        int variable2 = 2;
-        int variable3 = 4;
-        int variable4 = 3;
-        int variable5 = 5;
-        int variable6 = 80;
-
-        System.out.println("-------Solución a problema------------------");
-        // Math.sqrt me permite obtener la raíz cuadrada de un número
         
-        double resultado = (variable1 + variable2 + variable3 + variable4) / 
-                variable5 + Math.sqrt(variable6);
+      // (18 + 6 * 3) / 4 + raiz cuadrada de 64
+      double numerador = 18 + 6 * 3;        // 18 + 18 = 36 
+      double division = numerador / 4;    // 36 / 4 = 9
+      double raiz = Math.sqrt(64);        // raiz de 64 = 8      
+      double resultado = division + raiz; // 9 + 8 = 17  
         
-        
-        
-        System.out.println(resultado);
+        System.out.println("Expresion: (18 +6 * 3) /4 + sqrt(64)");
+        System.out.println("Resultado = " + resultado);
+       
 
     }
 
